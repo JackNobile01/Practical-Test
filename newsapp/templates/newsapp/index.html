@@ -1,3 +1,19 @@
+{% load static %}
+
+<head>
+<style>
+header
+{
+    background-color:#990000;
+}
+</style>
+</head>
+
+<header>
+    <div class="container">
+	<img src="{% static 'newsapp/images/image.jpg' %}">
+    </div>
+</header>
 <h1>
     {{ "Latest Articles" }}
 </h1>

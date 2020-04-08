@@ -1,3 +1,20 @@
+{% load static %}
+
+<head>
+<style>
+header
+{
+    background-color:#990000;
+}
+</style>
+</head>
+
+<header>
+    <div class="container">
+	<img src="{% static 'newsapp/images/image.jpg' %}">
+    </div>
+</header>
+<body>
 <h1>
     {{ article.heading_text }}
 </h1>
@@ -10,4 +27,4 @@
 <p2>
     {{ article.body_text }}
 <p2>
-
+</body>
